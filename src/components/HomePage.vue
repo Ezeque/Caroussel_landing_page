@@ -1,11 +1,17 @@
 <template>
   <div>
     <IndexPage/>
+    <VRow>
+      <VCol cols="12" md="6">
+        <MainTitle/>
+      </VCol>
+    </VRow>
   </div>
 </template>
 
 <script setup>
 import IndexPage from './navbar/IndexPage.vue';
+import MainTitle from './MainTitle.vue';
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -20,8 +26,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>

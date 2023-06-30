@@ -44,7 +44,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     color: white;
     padding: 0;
-    margin: 0 2em;
+    
     margin-top: 1em;
     display: flex;
 }

@@ -1,6 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
+/* Splide */
+import VueSplide from '@splidejs/vue-splide';
+
 // Vuetify
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
@@ -12,4 +15,4 @@ const vuetify = createVuetify({
     directives,
   })
 
-createApp(App).use(vuetify).mount('#app')
+createApp(App).use(VueSplide).use(vuetify).mount('#app')

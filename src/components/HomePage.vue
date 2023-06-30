@@ -1,9 +1,12 @@
 <template>
   <div>
-    <IndexPage/>
+    <IndexPage />
     <VRow>
       <VCol cols="12" md="6">
-        <MainTitle/>
+        <MainTitle />
+      </VCol>
+      <VCol cols="12" md="5">
+        <MainCaroussel />
       </VCol>
     </VRow>
   </div>
@@ -12,6 +15,7 @@
 <script setup>
 import IndexPage from './navbar/IndexPage.vue';
 import MainTitle from './MainTitle.vue';
+import MainCaroussel from './MainCaroussel.vue';
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -19,12 +23,18 @@ import MainTitle from './MainTitle.vue';
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
-</style>
+
+.v-row {
+  margin-top: 2em;
+  justify-content: space-between;
+}</style>

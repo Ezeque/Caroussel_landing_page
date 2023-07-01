@@ -9,6 +9,9 @@
         <MainCaroussel />
       </VCol>
     </VRow>
+    <VRow>
+      <TagsSection/>
+    </VRow>
   </div>
 </template>
 
@@ -16,6 +19,7 @@
 import IndexPage from './navbar/IndexPage.vue';
 import MainTitle from './MainTitle.vue';
 import MainCaroussel from './MainCaroussel.vue';
+import TagsSection from './tagSection/TagsSection.vue';
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

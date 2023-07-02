@@ -1,7 +1,7 @@
 <template>
     <div class="nav-bar">
         <VCol class="title" cols="12" md="3">
-            <div>Caroussel</div>
+            <div><img width="100" :src="require('@/assets/CarousselLogo2.png')"></div>
         </VCol>
         <VCol cols="12" md="1">
             <div class="nav-item">Services</div>
@@ -15,12 +15,14 @@
         <VCol cols="12" md="6">
             <div class="nav-item sign-up">
                 Sign Up
-                <ion-icon style="font-size: 1.5em;" name="log-in-outline">
-                </ion-icon>
+                <ArrowRightOnRectangleIcon style="width: 1.5em;"/>
             </div>
         </VCol>
     </div>
 </template>
+<script setup>
+import { ArrowRightOnRectangleIcon } from '@heroicons/vue/24/solid';
+</script>
 <style scoped>
 .v-col-md-1:hover {
     border-bottom: 5px solid whitesmoke;

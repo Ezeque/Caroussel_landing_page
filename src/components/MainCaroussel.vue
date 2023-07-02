@@ -5,7 +5,7 @@
             <div class="demo-call-wrapper">
                 <input placeholder="Book Demo Call" id="demo-call" type="email"/>
                 <button>
-                    <ion-icon style="font-size: 2em; color: black;" name="arrow-forward-circle" @click="true"></ion-icon>
+                    <ArrowRightCircleIcon style="width:2em; fill: black;"/>
                 </button>
             </div>
             
@@ -13,6 +13,7 @@
     </div>
 </template>
 <script setup>
+import { ArrowRightCircleIcon } from '@heroicons/vue/24/solid';
 import '@splidejs/vue-splide/css';
 </script>
 <style scoped>
